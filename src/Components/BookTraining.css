@@ -1,0 +1,154 @@
+.book-training-wrapper {
+  max-width: 860px;
+
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 100px auto;
+  padding: 0 0 3rem;
+}
+
+.header-section {
+  background-color: var(--bg-color);
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  margin-bottom: 7.5rem;
+}
+
+.header-section h1 {
+  font-size: 3.6rem;
+}
+
+.header-section img {
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.header-section img:hover {
+  background-color: #5f78bd;
+}
+
+.date-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.date-section .text-date {
+  text-align: center;
+}
+
+.date-section img {
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+.date-section img:hover {
+  background-color: #d3d3d3;
+}
+
+.date-section .text-date h1 {
+  font-weight: 900;
+  font-size: 3.6rem;
+}
+
+.date-section .text-date p {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 0;
+}
+
+.book-spot {
+  background-color: #203774;
+  max-width: 524px;
+  margin: 0 auto 2.5rem auto;
+  border-radius: 20px;
+  padding: 3rem 4rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.left-text {
+  line-height: 0;
+}
+
+.left-text h3 {
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+.left-text p {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.bottom-text {
+  line-height: 0;
+  margin-top: 5.5rem;
+}
+.bottom-text p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.trainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.trainer h4 {
+  font-size: 1.8rem;
+}
+
+.book-btn {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+.book-btn button {
+  border: none;
+  background-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-btn button:hover {
+  background-color: #d3d3d3;
+}
+
+@media screen and (max-width: 540px) {
+  .book-training-wrapper {
+    padding: 1rem;
+  }
+
+  .header-section {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  .book-spot {
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+}
